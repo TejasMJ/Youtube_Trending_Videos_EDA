@@ -92,7 +92,7 @@ Analyzing trends in YouTube videos can help marketers, content creators, and res
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/TejasMJ/Google-Play-Store-App-EDA-.git
+git clone https://github.com/TejasMJ/Youtube_Trending_Videos_EDA.git
 cd Google_Play_Store_EDA
 ```
 
@@ -129,26 +129,22 @@ jupyter notebook
 ### Data Cleaning & Preprocessing
 - Remove duplicates
 - Handle missing values
-- Convert column types (e.g., `Rating` to float, `Installs` to numeric)
+- Convert column types (e.g., views, likes, dislikes to numeric, publish_date to datetime)
 
-### Statistical Insights
-- Summary statistics (mean, median, mode, standard deviation)
-- Distribution analysis for `Rating`, `Installs`, and `Price`
-- Outlier detection for extreme values
+### Trending Insights
+- Identify trends in trending videos by country and day of the week
+- Determine optimal publishing days for maximum engagement
+- Analyze time frames for video trends
 
-### Category & Rating Analysis
-- Average rating per category
-- Most and least rated categories
-- Category vs Installs analysis
+### Engagement Analysis
+- Explore views, likes, dislikes, and comment counts
+- Identify highly engaging and viral content
+- Compare like/dislike ratios to assess public sentiment
 
-### User Engagement Analysis
-- Correlation between `Reviews`, `Rating`, and `Installs`
-- Identify top trending apps
-
-### Pricing & Revenue Insights
-- Free vs Paid apps distribution
-- Price analysis and trends
-- Paid apps with highest installs
+### Sentiment & Interaction Analysis
+- Analyze comment counts and determine impact of disabled comments
+- Explore correlation between likes, dislikes, and engagement
+- Identify controversial vs positively received videos
 
 ### Visualization
 - Interactive dashboards using **Plotly**
