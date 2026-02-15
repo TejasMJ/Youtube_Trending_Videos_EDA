@@ -21,8 +21,8 @@ The project folder is organized as follows:
 
 ```text
 YouTube_Trending_Videos_EDA/
-├── youtube.csv                        # Dataset of trending YouTube videos
-├── YouTube_Trending_Videos_EDA.ipynb  # Jupyter Notebook with full EDA
+├── youtube.csv                         # Dataset of trending YouTube videos
+├── YouTube_Trending_Videos_EDA.ipynb   # Jupyter Notebook with full EDA
 ├── requirements.txt                    # Python dependencies
 └── venv/                               # Virtual environment
 
